@@ -1,5 +1,8 @@
 <template>
-  <test-co mponent />
+  <div class="flex flex-grow">
+    <admin-sidebar />
+    <router-view />
+  </div>
 </template>
 
 <script setup lang="ts"></script>
